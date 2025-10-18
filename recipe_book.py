@@ -1,5 +1,9 @@
 import random
 
+# add your recipes here!
+# also  make sure to add the  ingrtedients for any added recipes//
+# //in the create_shopping_list function!
+
 def create_recipe_book():
 
     recipe_book = [
@@ -20,6 +24,7 @@ def create_recipe_book():
 
 ]
     
+    # randomize so we don't get the same schedule every run!
     random.shuffle(recipe_book)
 
     return recipe_book
